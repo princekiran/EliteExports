@@ -20,10 +20,11 @@
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	
+		
+	<link rel="stylesheet" href="css/lightbox.css">
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/lightbox.css">
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -120,61 +121,67 @@
 	
 	<!-- /////////////////////////////////////////Content -->
 	<div id="page-content">
-	
-		<!-- ////////////Content Box 01 -->
-	
-		<section class="box-content" id="news">
+		
+		<!-- ////////////Content Box -->
+		<section class="box-content">
 			<div class="container">
 				<div class="row heading">
 					 <div class="col-lg-12">	
-	                    <h2>Our Top Products</h2>
+	                    <h2>CONTACT</h2>
 	                    <hr class="line02">
-                    	
+                    	<div class="intro">Office Location</div>
 	                </div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
-						<div class="box-item">
-							<div class="wrap-img">
-								<img src="images/brown-coir-fiber.jpg" class="img-circle" alt="">
-							</div>
-							<p>The only natural fiber resistant to salt water, coir is used to make nets for shellfish harvesting and ropes for marine applications. Highly resistant to abrasion, coir fibers are used to make durable floor mats and brushes. Strong and nearly impervious to the weather, coir twine is the material hops growers in the United States prefer for tying their vines to supports. Coir is becoming a popular choice for making geotextiles because of its durability, eventual biodegrad-ability, ability to hold water, and hairy texture. </p>
-							<div class="info">
-								Coir Fiber
-							</div>
-						</div>
+				<div class='embed-container maps'>
+					<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAzFjv0fbUPrYFiV1zS9ROiCheK1_uVzog
+    &q=parrys+corner,Chennai" width="100%" height="450px" frameborder="0" style="border: 0"></iframe>
+				</div>
+					<div class="col-md-4 box-item wow fadeInLeft">
+						<h3>Contact Info</h3>
+						<span>Elite Exports</span><br> <br>
+						<p>Kannan<br>
+							Chennai, India</p>
+						   <p>+91 96290 05857<br>
+							</p>
+						<p>Eliteagriexports@gmail.com</p>
 					</div>
-					<div class="col-md-4">
-						<div class="box-item">
-							<div class="wrap-img">
-								<img src="images/coco-peat-briquette.jpg" class="img-circle" alt="">
+					<div class="col-md-8 wow fadeInRight">
+						<h3>Contact Form</h3>
+						<form id="ff" name="form1" method="post" action="contact.php">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+									<input type="text" class="form-control input-lg" name="name" id="name" placeholder="Enter name" required="required" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="email" class="form-control input-lg" name="email" id="email" placeholder="Enter email" required="required" />
+									</div>
+								</div>
 							</div>
-							<p>Cocopeat is a natural fibre made out of coconut husks. The extraction of the coconut fibre from husks gives us this by-product called cocopeat. Cocopeat is a 100% natural growing medium. This cocopeat dried in the natural sun, are processed to produce different items namely cocopeat block, cocopeat briquettes, cocopeat tablets etc. This makes an excellent growing medium for hydrophonics or container plant growing. Clean coir has natural rooting hormones and anti-fungal properties.Coco Peat is very slow to disintegrate
-							. </p>
-							<div class="info">
-								CoCo Peat
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="text" class="form-control input-lg" name="subject" id="subject" placeholder="Subject" required="required" />
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="box-item">
-							<div class="wrap-img">
-								<img src="images/raw-peanuts.jpg" class="img-circle" alt="">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<div class="form-group">
+										<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
+										placeholder="Message"></textarea>
+									</div>						
+									<button type="submit" class="btn btn-skin btn-lg page-scroll wow fadeInUp" name="submitcontact" id="submitcontact">Submit</button>
+								</div>
 							</div>
-							<p>Peanut is a small annual dicotyledon herb growing up to a foot above the ground. It is thought to have originated in the Central Americas and from where it spread to rest of the world through Spanish explorers. Today, it is one of the widely cultivated oil-seed and established prime commercial crop in China, India, African nations, and the United States of America.Peanuts are rich in energy (567 calories per 100 g) and contain health benefiting nutrients, minerals, antioxidants and vitamins that are essential for optimum health. </p>
-							<div class="info">
-								Peanut
-							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
 		</section>
-		
-		<!-- ////////////Content Box 02 -->
-		
-		<!-- ////////////Content Box 04 -->
-		
 		
 	</div>
 	
@@ -225,14 +232,18 @@
 	<script src="js/classie.js"></script>
 	<script src="js/cbpAnimatedHeader.js"></script>
 	
-	<script type="text/javascript" src="js/wow.min.js"></script> 
-	<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-	<script type="text/javascript" src="js/main.js"></script>
 	<script src="js/lightbox-plus-jquery.min.js"></script>
 	
-	<!-- carousel -->
-	<script src="owl-carousel/owl.carousel.js"></script>
-  
+	<!-- Google Map -->
+	<script>
+		$('.maps').click(function () {
+		$('.maps iframe').css("pointer-events", "auto");
+	});
+
+	$( ".maps" ).mouseleave(function() {
+	  $('.maps iframe').css("pointer-events", "none"); 
+	});
+	</script>
 	
 </body>
 </html>
